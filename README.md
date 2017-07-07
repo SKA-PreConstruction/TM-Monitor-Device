@@ -15,8 +15,7 @@ The implemented setting file is the following:
 <settings>
 	<attributes>
 		<key>LOCALHOST_SSH</key>
-		<nagios_cgi_query>http://ska-tm1.ia2.inaf.it/nagios/cgi-bin/statusjson.cgi?query=service&amp;hostname=localhost&amp;servicedescription=SSH
-		</nagios_cgi_query>
+		<nagios_cgi_query>http://ska-tm1.ia2.inaf.it/nagios/cgi-bin/statusjson.cgi?query=service&amp;hostname=localhost&amp;servicedescription=SSH</nagios_cgi_query>
 		<json_query_result>data/service/plugin_output</json_query_result>
 	</attributes>
 </settings>
