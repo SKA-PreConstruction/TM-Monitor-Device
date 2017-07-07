@@ -29,3 +29,4 @@ Commands available:
 ```
 
 This prototype is a *proof of concept*. 
+More information about generic monitoring available [here](https://docs.google.com/document/d/1mJzTDs4yDDHbJLzjIJQXfGIHfjZzq0LW-c2QiJPp-Jg/edit?usp=sharing).
