@@ -22,8 +22,10 @@ The implemented setting file is the following:
 ```
 
 Commands available:
-* public String CheckService(String[] checkServiceIn)
+```
+* String CheckService(String[] checkServiceIn)
 * string[] ServiceList() 
 * String[] HostList()
+```
 
 This prototype is a *proof of concept*. 
