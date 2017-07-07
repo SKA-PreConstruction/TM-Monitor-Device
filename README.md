@@ -11,12 +11,14 @@ There are many integration possibilities based on the technological choice made 
 In this device the bridge is implemented with the JSON CGI. The Tango framework gives the possibility to add a dynamic list of attributes. This device foresee the a setting file in order to add those attributes in the initDevice method. 
 
 The implemented setting file is the following:
+```xml
 <settings>
 	<attributes>
 		<key>LOCALHOST_SSH</key>		<nagios_cgi_query>http://ska-tm1.ia2.inaf.it/nagios/cgi-bin/statusjson.cgi?query=service&amp;hostname=localhost&amp;servicedescription=SSH</nagios_cgi_query>
 		<json_query_result>data/service/plugin_output</json_query_result>
 	</attributes>
 </settings>
+```
 
 Commands available:
 * public String CheckService(String[] checkServiceIn)
