@@ -1,5 +1,5 @@
 # TM-Monitor-Device
-The TM Monitor device realize a bridge between the Software System Monitor (Nagios core in this example) and the tango hierarchy (developed with the help of the tango controls framework). It gathers information from the SSM and report it to any device server that subscribe to its attributes.
+The TM Monitor device realizes a bridge between the Software System Monitor (Nagios core in this example) and the tango hierarchy (developed with the help of the tango controls framework). It gathers information from the SSM and report it to any device server that subscribe to its attributes.
 
 There are many integration possibilities based on the technological choice made for the software system monitor. Taking as SSM Nagios core, the solutions are:
 * Read internal files that Nagios keep updated (i.e. status.dat),
